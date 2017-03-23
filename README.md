@@ -61,5 +61,8 @@ Note that if you provide a pre-rendered button, it is your responsibility to cor
 Development
 -----------
 
-If you want to fork and improve this component, the styles are defined as sass in TooltipButton.sass
+If you want to fork and improve this component
 
+- Clone this repo and run `npm install`
+- `npm run compile` will invoke babel to compile JSX/ES6 into ES5
+- styles are defined as sass in TooltipButton.sass
