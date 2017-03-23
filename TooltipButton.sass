@@ -1,0 +1,32 @@
+.tooltip-button-helper
+
+  // intended styling for helper div itself
+
+  display: inline-block
+  vertical-align: top
+  cursor: not-allowed
+
+  // disable events on button
+
+  button
+    pointer-events: none
+
+  // fix styling of buttons in ButtonGroups and ButtonToolbars which got broken by inserting another div
+
+  .btn-toolbar &
+    float: left
+
+  .btn-toolbar > &
+    margin-left: 5px
+
+  .btn-group>&:first-child:not(:last-child)>.btn:not(.dropdown-toggle)
+    border-top-right-radius: 0
+    border-bottom-right-radius: 0
+
+  .btn-group>&:last-child:not(:first-child)>.btn, .btn-group>&:not(:first-child)>.dropdown-toggle
+    border-top-left-radius: 0
+    border-bottom-left-radius: 0
+
+  .btn-group .btn+&, .btn-group &+.btn, .btn-group &+&, .btn-group &+.btn-group, .btn-group .btn-group+&
+    margin-left: -1px
+
