@@ -13,8 +13,6 @@ Installing
 How to use
 ----------
 
-You need [Webpack](https://webpack.github.io) and currently you also need [sass-loader](https://www.npmjs.com/package/sass-loader) installed in webpack to transform the styles of this component from SASS into CSS.
-
     import TooltipButton from 'react-bootstrap-tooltip-button';
 
 In your render function:
@@ -59,3 +57,9 @@ In some cases you may want to render your own button and not have it rendered by
     />
 
 Note that if you provide a pre-rendered button, it is your responsibility to correctly set the `disabled` prop also on that button, since `react-bootstrap-tooltip-button` can only do it on buttons it renders itself.
+
+Development
+-----------
+
+If you want to fork and improve this component, the styles are defined as sass in TooltipButton.sass
+

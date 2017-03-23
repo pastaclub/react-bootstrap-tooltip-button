@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button } from 'react-bootstrap'
 import { OverlayTrigger, Tooltip } from 'react-bootstrap'
-import './TooltipButton.sass'
+import './TooltipButton.css'
 
 // button that, if disabled, shows a tooltip explaining why it's disabled
 // by default, this component will render the button and disable it if prop disabled is set
