@@ -1,10 +1,14 @@
 {
   "name": "react-bootstrap-tooltip-button",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React-Bootstrap button with Tooltip when disabled",
   "main": "TooltipButton.js",
   "author": "Dennis Bemmann",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pastaclub/react-bootstrap-tooltip-button"
+  },
   "dependencies": {
     "react": "^15.4.2",
     "react-bootstrap": "^0.30.8",
