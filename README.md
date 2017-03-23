@@ -3,7 +3,7 @@ react-bootstrap-tooltip-button
 
 React component allowing you to place a tooltip on a button when the button is disabled. This can be helpful for example to inform the user of the reason why a button is disabled.
 
-It is usually not possible to put a tooltip on a disabled button, because browser behavior is defined in such a way that disabled elements don't throw the events needed to trigger the tooltip. A widely suggested work-around is to place the disabled button in a <div> and have the div trigger the tooltip. This however breaks Bootstrap's styling in many cases (in order to display corners and margins correctly, Bootstrap relies on buttons being direct children of button toolbars or button groups or direct siblings of other buttons). This component brings custom CSS to build on Bootstrap's and fix all those issues, so the component behaves really just like you would expect a bootstrap button to behave.
+It is usually not possible to put a tooltip on a disabled button, because browser behavior is defined in such a way that disabled elements don't throw the events needed to trigger the tooltip. A widely suggested work-around is to place the disabled button in a `<div>` and have the div trigger the tooltip. This however breaks Bootstrap's styling in many cases (in order to display corners and margins correctly, Bootstrap relies on buttons being direct children of button toolbars or button groups or direct siblings of other buttons). This component brings custom CSS to build on Bootstrap's and fix all those issues, so the component behaves really just like you would expect a bootstrap button to behave.
 
 Installing
 ----------
