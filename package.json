@@ -1,6 +1,6 @@
 {
   "name": "react-bootstrap-tooltip-button",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "React-Bootstrap button with Tooltip when disabled",
   "main": "lib/TooltipButton.js",
   "author": "Dennis Bemmann",
